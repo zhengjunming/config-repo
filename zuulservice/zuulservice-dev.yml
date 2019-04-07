@@ -1,0 +1,14 @@
+signing:
+  key: "345345fsdfsf5345"
+zuul:
+  ignored-services: "*"
+  prefix:  /api
+  routes:
+    organizationservice: /organization/**
+    licensingservice: /licensing/**
+    authenticationservice: /auth/**
+    configserver: "/config/**"
+    specialroutesservice: "/specialroutesservice/**"
+  sensitiveHeaders: Authorization
+  debug:
+    request: true
