@@ -2,7 +2,7 @@ spring:
   jpa:
     database: "H2"
     show-sql: "true"
-  database:
+  datasource:
     url: jdbc:mysql://127.0.0.1:3306/eagle_eye_local
     username: root
     password: 123456
