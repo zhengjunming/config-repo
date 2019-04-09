@@ -7,6 +7,6 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/eagle_eye_local
     username: root
     password: 123456
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 signing:
   key: 345345fsdfsf5345
