@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+    open-in-view: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/eagle_eye_local?characterEncoding=utf8&amp;useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      test-while-idle: true
+signing:
+  key: 345345fsdfsf5345
