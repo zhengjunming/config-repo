@@ -1,12 +1,12 @@
 spring:
   jpa:
-    database: MYSQL
+    database: H2
     show-sql: true
     open-in-view: true
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/eagle_eye_local
-    username: root
-    password: 123456
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:~/test;AUTO_SERVER=TRUE
+    username: sa
+    password:
 signing:
   key: 345345fsdfsf5345
