@@ -4,9 +4,9 @@ spring:
     show-sql: true
     open-in-view: true
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:~/test;AUTO_SERVER=TRUE
-    username: sa
-    password:
+    url: jdbc:mysql://127.0.0.1:3306/eagle_eye_local
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
 signing:
   key: 345345fsdfsf5345
