@@ -1,11 +1,11 @@
 spring:
   jpa:
-    database: "H2"
-    show-sql: "true"
+    database: MYSQL
+    show-sql: true
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/eagle_eye_local
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
-    testWhileIdle: "true"
-    validationQuery: "SELECT 1"
+    testWhileIdle: true
+    validationQuery: SELECT 1
